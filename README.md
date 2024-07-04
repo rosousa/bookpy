@@ -1,3 +1,3 @@
 # bookpy
 
-BookBot is my first project!
+Count the words and characters in a book.
