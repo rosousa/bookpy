@@ -1,7 +1,9 @@
 def main():
-    print("--- Begin report of books/frankenstein.txt ---")
+    book_path = str(input("please type the path to the book: "))
 
-    with open("./books/frankenstein.txt") as f:
+    print(f"--- Begin report of {book_path} ---")
+
+    with open(book_path) as f:
         file_contents = f.read()
         wordCount = countWords(file_contents)
 
